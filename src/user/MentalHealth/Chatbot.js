@@ -32,7 +32,7 @@ const Chatbot = () => {
 
   const botResponse = async (rawText) => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/get", {
+      const response = await fetch("https://ayur-backend-tgqw.onrender.com/get", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
