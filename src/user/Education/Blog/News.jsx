@@ -3,7 +3,6 @@ import React  from 'react'
 // import placeholder from './placeholder.jpg'
 import {BsArrowRight} from 'react-icons/bs'
 import Button from '@mui/material/Button';
-import { Fade } from 'react-reveal'
 
 
 const News = () => {
@@ -39,7 +38,6 @@ const News = () => {
       <div className='md:flex justify-between'>
 
       {/* {random1 && random1.urlToImage && random1.publishedAt ? (  */}
-        <Fade up>
         <div>
           <img src="https://images.macrumors.com/t/U9dWJ6fomqjpKkfPbAusKqDrc_g=/1600x/article-new/2023/06/top-stories-17jun2023.jpg" alt="news1" className='h-[160px] w-[280px] '/>
 
@@ -50,7 +48,6 @@ const News = () => {
           <p className='w-[280px] my-4 text-md font-normal text-gray-400'>With WWDC now in the rear-view mirror, we've finally had time to really dig into the new software updates and discover some of our favorite new features and changes. New hardware was of course another big focus for WWDC, and while the Vision Pro isn't co…</p>
 
         </div>
-        </Fade>
       {/* ) : (
         <div>
           <img src={placeholder} alt="news1" className='h-[160px] w-[280px] '/>
@@ -65,7 +62,6 @@ const News = () => {
          )} */}
 
         {/* {random2 && random2.urlToImage && random2.publishedAt ? (  */}
-        <Fade up>
           <div>
             <img src="https://www.cnet.com/a/img/resize/f24a35c160046ffbbcc2207555b8adc7e77bd26f/hub/2023/06/09/b3b35284-1d0c-4c27-8676-954abc2fad8a/lg-c3-oled-tv-2023-07.jpg?auto=webp&fit=crop&height=675&width=1200" alt="news1" className='h-[160px] w-[280px] '/>
 
@@ -76,7 +72,6 @@ const News = () => {
             <p className='w-[280px] my-4 text-md font-normal text-gray-400'>You could pay more for a nice TV, but you probably shouldn't.</p>
 
           </div>
-        </Fade>
           {/* ) : (
           <div>
             <img src={placeholder} alt="news1" className='h-[160px] w-[280px] '/>
@@ -91,7 +86,6 @@ const News = () => {
          )} */}
 
         {/* {random3 && random3.urlToImage && random1.publishedAt ? (  */}
-        <Fade up>
           <div>
             <img src="https://i.insider.com/648df6c520f78100189fe216?width=1200&format=jpeg" alt="news1" className='h-[160px] w-[280px] '/>
 
@@ -102,7 +96,6 @@ const News = () => {
             <p className='w-[280px] my-4 text-md font-normal text-gray-400'>Bringing AI to audiobooks could make them even more profitable for publishers. Voice actors are nervous about cloning.</p>
 
           </div>
-        </Fade>
         {/* ) : (
           <div>
             <img src={placeholder} alt="news1" className='h-[160px] w-[280px] '/>
@@ -117,7 +110,6 @@ const News = () => {
          )} */}
 
         {/* {random4 && random4.urlToImage && random1.publishedAt ? (  */}
-        <Fade up>
           <div>
             <img src="https://imgs.hipertextual.com/wp-content/uploads/2023/06/reddit.jpg" alt="news1" className='h-[160px] w-[280px] '/>
 
@@ -129,7 +121,6 @@ const News = () => {
 
           </div>
 
-        </Fade>
           {/* ) : (
           <div>
             <img src={placeholder} alt="news1" className='h-[160px] w-[280px] '/>
