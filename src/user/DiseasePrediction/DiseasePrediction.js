@@ -10,12 +10,14 @@ const DiseasePrediction = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
+  const [loading, setLoading] = useState(false)
   const [commonSymptoms, setCommonSymptoms] = useState([
     'itching', 'skin_rash', 'nodal_skin_eruptions', 'continuous_sneezing', 'shivering', 'chills', 'joint_pain', 'stomach_pain', 'acidity', 
   ]);
   const [result, setResult] = useState({ predictions: { final_prediction: '' }, response: '' });
 
   const handleNextPage = async () => {
+    setLoading(true);
     // Prepare the symptoms string for the POST request
     const formattedSymptoms = selectedSymptoms.map(symptom => 
       symptom.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
@@ -39,6 +41,7 @@ const DiseasePrediction = () => {
 
         // Set the result state
         setResult(resultData);
+        setLoading(false)
   
         // Handle the result, you might want to store it in state or navigate to another page
       } else {
@@ -192,7 +195,7 @@ const DiseasePrediction = () => {
               )}
               {currentPage < 2 && (
                 <Button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mr-2 mb-2 shadow-xl inset-3  flex items-center justify-around gap-2' onClick={handleNextPage}>
-                  Next <AiOutlineRight />
+                  {loading ? "Loading..." : "Next"} <AiOutlineRight />
                 </Button>
               )}
             </CardBody>
