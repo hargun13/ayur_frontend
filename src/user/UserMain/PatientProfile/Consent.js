@@ -4,13 +4,13 @@ import Button from '@mui/material/Button'
 const Consent = () => {
   return (
     <div>
-      <p className='px-14'>IntelliHealth Organ Donor Information Sharing Consent Agreement<br/><br/>
+      <p className='px-14'>Ayur Organ Donor Information Sharing Consent Agreement<br/><br/>
 
-      This Organ Donor Information Sharing Consent Agreement ("Consent Agreement") is entered into between IntelliHealth ("Platform" or "We") and the organ donor ("Donor" or "User"). This Consent Agreement governs the sharing of Donor's organ donation information on the IntelliHealth platform.<br/><br/>
+      This Organ Donor Information Sharing Consent Agreement ("Consent Agreement") is entered into between Ayur ("Platform" or "We") and the organ donor ("Donor" or "User"). This Consent Agreement governs the sharing of Donor's organ donation information on the Ayur platform.<br/><br/>
 
       1. Purpose of Information Sharing<br/><br/>
 
-      The purpose of sharing organ donation information on the IntelliHealth platform is to:<br/><br/>
+      The purpose of sharing organ donation information on the Ayur platform is to:<br/><br/>
 
       Raise awareness about organ donation.
       Facilitate potential matches between organ donors and recipients.
@@ -21,11 +21,11 @@ const Consent = () => {
 
       3. Duration of Consent<br/><br/>
 
-      This Consent Agreement remains valid until the User chooses to revoke it. Users reserve the right to withdraw their consent at any time by notifying IntelliHealth. Any information shared before the revocation will remain subject to the terms of this Consent Agreement.<br/><br/>
+      This Consent Agreement remains valid until the User chooses to revoke it. Users reserve the right to withdraw their consent at any time by notifying Ayur. Any information shared before the revocation will remain subject to the terms of this Consent Agreement.<br/><br/>
 
       4. Revoking Consent<br/><br/>
 
-      In the event that a User decides to revoke consent, they must provide written notice to IntelliHealth. Following the revocation, the User's organ donation information will no longer be shared on the platform.<br/><br/>
+      In the event that a User decides to revoke consent, they must provide written notice to Ayur. Following the revocation, the User's organ donation information will no longer be shared on the platform.<br/><br/>
 
       5. Agreement<br/><br/>
 
@@ -33,10 +33,10 @@ const Consent = () => {
 
       6. Contact Information<br/><br/>
 
-      IntelliHealth may contact Users at the following address or email for matters related to consent:<br/><br/>
+      Ayur may contact Users at the following address or email for matters related to consent:<br/><br/>
 
       Address: 1234 Random Street, Mumbai, India<br/>
-      Email: contact@intellihealth.org<br/>
+      Email: contact@Ayur.org<br/>
       Phone: +91-123-456-7890<br/><br/>
 
       7. Governing Law<br/><br/>
